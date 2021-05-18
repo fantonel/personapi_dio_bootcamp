@@ -41,6 +41,4 @@ public class Phone {
     @Column(name = "phoneoperator_id", nullable = false)
     private PhoneOperator phoneOperator;
 
-    @ManyToOne(fetch = FetchType.EAGER, cascade = {CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REMOVE}, targetEntity = Person.class)
-    private Person person;
 }
