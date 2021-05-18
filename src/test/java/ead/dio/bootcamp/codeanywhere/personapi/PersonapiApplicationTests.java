@@ -9,5 +9,4 @@ class PersonapiApplicationTests {
     @Test
     void contextLoads() {
     }
-
 }
